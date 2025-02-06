@@ -1,4 +1,8 @@
-﻿<html>
+﻿ <!-- name: Ahmad Meshaal Aljedaani
+ ID: 2136071
+ section: CS1
+ date: 6/2/2025 -->
+<html>
 <head>
 <!--
    Assignment 1
@@ -16,15 +20,26 @@
 
 <body>
 <div>
-<img src="logo.jpg" alt="Your Health Clinic" />
+<img src="logo.jpg" alt="Your Health Clinic" usemap="#yourclinic" border="0"/>
+<map name="yourclinic" id="yourclinic">
+   <area shape="rect" coords="850,15,1000,50" href="about.html" alt="Know more about us" title="Know more about us">
+   <area shape="rect" coords="850,52,1000,85" href="staff.html" alt="Meet our staff" title="Know more about Staff">
+   <area shape="rect" coords="850,87,1000,120" href="services.html" alt="Our Services" title="See our services">
+   <area shape="default" href="index.html" alt="Return to homepage" title="Return to homepage">
+</map>
 </div>
 <hr />
-<div><b>Facilities
-			&nbsp;&nbsp; &#9830;&nbsp;&nbsp;
-		Timing
-			&nbsp;&nbsp; &#9830;&nbsp;&nbsp;
-		Schedule
-</b> </div>
+<div>
+   <b>
+       <a href="index.html#fac" title="Learn more about facilities">Facilities</a>
+       &nbsp;&nbsp; &#9830;&nbsp;&nbsp;
+       <a href="index.html#time" title="Go through timings">Timing</a>
+       &nbsp;&nbsp; &#9830;&nbsp;&nbsp;
+       <a href="index.html#schedule" title="Look at our schedule">Schedule</a>
+   </b>
+</div>
+
+
 <hr />   
 <h1>Welcome</h1>
 <p>The Your Health Clinic is a non-profit, primary care facility that provides
@@ -41,7 +56,7 @@ and saw a 30% increase in new patients</cite>
   and a donation is requested at each visit, yet no one is turned away for inability to pay.</p>
 
 
-<h3>Clinic Schedule</h3>  
+<h3 id="schedule">Clinic Schedule</h3>
 <p>The People’s Health Clinic provides medical care to uninsured residents of Summit 
 and Wasatch Counties. We operate three clinics each week at 650 Round Valley Drive in Park City, Utah</p>
 <blockquote>
@@ -49,7 +64,7 @@ Patients are mainly seen by appointment.
 Walk-ins are discouraged due to our busy Clinic schedule.
 Read below for more details about hours.</blockquote>
 
-<h3>Facilities</h3>
+<h3 id="fac">Facilities</h3>"
 <ul>
 <li>General Medicine</li>
 <li>Pediatrics</li>
@@ -60,7 +75,7 @@ Read below for more details about hours.</blockquote>
 
 </ul>
 
-<h3>Timings</h3>
+<h3 id="time">Timings</h3>
 <blockquote>
 <p>Tuesdays - 9:00 a.m. – 12:00 p.m.  &amp; 1:00 – 7:00 p.m.</p>
 <p>Wednesdays – 9:00 a.m. – 12:00 p.m. &amp; 1:00 - 5:00 p.m.</p>
