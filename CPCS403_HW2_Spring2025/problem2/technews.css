@@ -1,0 +1,50 @@
+﻿/*
+Assignment 3
+Problem 2
+
+Name: Ahmad Meshaal Aljedaani 
+Date: 2/13/2025
+
+File name: Csstxt.css
+Supporting files: news.html, image1.gif, image2.gif, image3.gif, image4.gif, image5.gif, image6.gif, ribbon.gif
+*/
+
+body {
+    color: black;
+    background-color: rgb(204, 204, 153);
+    margin: 0em;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#ribbon {
+    float: left;
+    border-right: double 7px;
+}
+
+#pageContent {
+    width: 50em;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+    text-align: center;
+    padding: 0.2em;
+    color: rgb(204, 204, 153);
+    background-color: rgb(102, 102, 204);
+}
+
+address {
+    font-style: normal;
+    text-transform: uppercase;
+    color: rgb(102, 102, 204);
+    text-align: center;
+    padding: 0.5em;
+    border-top: solid 0.1em rgb(102, 102, 204);
+}
