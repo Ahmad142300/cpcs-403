@@ -1,3 +1,4 @@
+<!-- finalProject\includes\footer.php -->
 </div> <!-- End of content div -->
         <footer>
             <p>&copy; <?php echo date("Y"); ?> FitTrack. All rights reserved.</p>

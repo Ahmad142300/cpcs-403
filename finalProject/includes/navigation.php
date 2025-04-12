@@ -1,3 +1,4 @@
+<!-- finalProject\includes\navigation.php -->
 <nav>
     <ul>
         <li><a href="/index.php">Home</a></li>
