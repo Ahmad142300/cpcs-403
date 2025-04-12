@@ -1,0 +1,76 @@
+/* Print Specific CSS for FitTrack Website Schedule Table */
+
+/* Hide all elements except the table and its caption */
+body * {
+    display: none !important;
+}
+
+body, #container, #content {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    box-shadow: none !important;
+}
+
+.schedule-table, 
+.schedule-table caption {
+    display: table !important;
+    width: 100% !important;
+    border-collapse: collapse !important;
+    color: black !important;
+    background: white !important;
+}
+
+.schedule-table caption {
+    display: table-caption !important;
+    font-size: 16pt !important;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+}
+
+.schedule-table thead, 
+.schedule-table tbody, 
+.schedule-table tr, 
+.schedule-table th, 
+.schedule-table td {
+    display: table-header-group !important;
+    display: table-row-group !important;
+    display: table-row !important;
+    display: table-cell !important;
+    border: 1px solid black !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+.schedule-table th {
+    font-weight: bold !important;
+    background: white !important;
+}
+
+/* Make workout types identifiable in black and white */
+.cardio, .strength, .flexibility, .rest {
+    background: white !important;
+}
+
+.cardio::before {
+    content: "[C] ";
+}
+
+.strength::before {
+    content: "[S] ";
+}
+
+.flexibility::before {
+    content: "[F] ";
+}
+
+.rest::before {
+    content: "[R] ";
+}
+
+/* Add page break if needed */
+@page {
+    margin: 0.5cm;
+}
